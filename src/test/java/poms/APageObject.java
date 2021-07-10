@@ -1,6 +1,6 @@
 package poms;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
@@ -8,10 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tool.Constants;
-import tool.JavaExecuteScriptHelper;
-
-import java.util.function.Function;
+import tools.JavaExecuteScriptHelper;
 
 public class APageObject<T extends APageObject> {
 

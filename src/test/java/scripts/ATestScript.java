@@ -1,18 +1,19 @@
 package scripts;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
-import tool.Constants;
-import tool.DriverFactory;
+import tools.DriverFactory;
+import tools.helpers.TestStep;
 
 public class ATestScript {
 
-    WebDriver     driver;
-    WebDriverWait wait;
-    Logger        logger = LogManager.getLogger(getClass());
+    protected WebDriver     driver;
+    protected WebDriverWait wait;
+    protected Logger        logger;
+    protected TestStep      step;
 
 
     @BeforeMethod
@@ -23,14 +24,16 @@ public class ATestScript {
 
     public void initTest() throws Exception {
 
+        // init step
+        step = new TestStep();
+
         // get driver from driver factory
         DriverFactory _driverFactory = new DriverFactory();
         driver = _driverFactory.getWebDriver("Chrome");
 
         // init wait and logger
-        wait   = new WebDriverWait(driver, _driverFactory.getWait());
-        System.out.println(getClass());
-        logger = LogManager.getLogger(getClass());
+        wait = new WebDriverWait(driver, _driverFactory.getWait());
+        logger = LogManager.getLogger();
 
         // open browser with url
         driver.manage().deleteAllCookies();

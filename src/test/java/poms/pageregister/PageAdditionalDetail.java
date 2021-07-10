@@ -1,7 +1,11 @@
 package poms.pageregister;
 
-import components.*;
-import org.apache.log4j.Logger;
+import components.level2.Button;
+import components.level2.TextField;
+import components.level1.CalendarDate;
+import components.level1.DropDown;
+import components.level1.DropDownTextSearch;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,7 +15,7 @@ import java.util.List;
 
 public class PageAdditionalDetail extends APageObject<PageAdditionalDetail> {
 
-    Button             btn;
+    Button    btn;
     TextField          tfd;
     DropDown           drDw;
     DropDownTextSearch drDwTextSearch;
@@ -41,11 +45,6 @@ public class PageAdditionalDetail extends APageObject<PageAdditionalDetail> {
     }
 
 
-    /**
-     * This follow function openApplicableOption
-     *
-     * @param _lisOptions
-     */
     public void selectApplicableOptions(List<String> _lisOptions) {
         logger.debug("[PageAdditionalDetail] Select Applicable Option: " + _lisOptions);
         drDw.openDropDown("What solutions are you looking for?");

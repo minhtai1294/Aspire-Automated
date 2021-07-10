@@ -1,9 +1,9 @@
 package poms.pageregister;
 
-import components.Button;
-import components.DropDownTextSearch;
-import components.TextField;
-import org.apache.log4j.Logger;
+import components.level2.Button;
+import components.level1.DropDownTextSearch;
+import components.level2.TextField;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
