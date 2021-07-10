@@ -9,5 +9,8 @@
         <module name="Aspire Automated" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Aspire Automated" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>

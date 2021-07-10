@@ -16,6 +16,7 @@ public class TextField extends AComponent<TextField> {
     }
 
     public void input(String strInput) {
+        logger.debug(LVL_TWO.concat("[TextField] Input text: " + strInput));
         untilPresent().untilVisible().untilClickable();
         driver.findElement(locator).clear();
         driver.findElement(locator).sendKeys(strInput);
@@ -23,11 +24,12 @@ public class TextField extends AComponent<TextField> {
 
 
     /**
-     * Also an input action but use Action Object to build, performance can be slower than normal input but can handle better in some case that normal input can't
+     * Also an input action but use Action Object to build, performance may be inconsistent than normal input but can handle in some case that normal input can't
+     *
      * @param strInput
      */
-    public void inputAction(String strInput) {
-        logger.debug(LVL_TWO.concat("[TextField] Input text: " + strInput));
+    public void actionInput(String strInput) {
+        logger.debug(LVL_TWO.concat("[TextField] Action Input text: " + strInput));
         untilPresent().untilVisible().untilClickable();
         WebElement _inputElement = driver.findElement(locator);
         Actions    builder       = new Actions(driver);

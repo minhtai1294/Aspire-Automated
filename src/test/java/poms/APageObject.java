@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tools.JavaExecuteScriptHelper;
+import tools.helpers.JavaExecuteScriptHelper;
 
 public class APageObject<T extends APageObject> {
 
@@ -25,7 +25,7 @@ public class APageObject<T extends APageObject> {
     // Defined locators -------
 
     String strTextOnPage  = "//*[contains(text(), '%s')]";
-    By     bySpinner      = By.xpath("//*[name() = 'svg'][contains(@class,'q-spinner')]");
+    By     bySpinner      = By.xpath("//*[name() = 'svg'][contains(@class,'q-spinner')][not(parent::*[contains(@class,'q-inner-loading')])]");
     By     byInnerLoading = By.xpath("//*[contains(@class,'q-inner-loading')]");
 
 

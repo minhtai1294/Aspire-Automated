@@ -2,7 +2,7 @@ package poms.pageregister;
 
 import components.level2.Button;
 import components.level1.DropDownTextSearch;
-import components.level2.RadioButton;
+import components.level1.RadioButton;
 import components.level2.TextField;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -26,9 +26,9 @@ public class PageBusinessDetail extends APageObject {
     }
 
     // Defined locators -------
-    String strLabelInput     = "//div[contains(text(), '%s')]/following::*[1]//input";
-    By     byButtonSubmit    = By.xpath("//button//span[text() = 'Submit']");
-    By     byButtonContinue    = By.xpath("//button//span[text() = 'Continue']");
+    String strLabelInput    = "//div[contains(text(), '%s')]/following::*[1]//input";
+    By     byButtonSubmit   = By.xpath("//button//span[text() = 'Submit']");
+    By     byButtonContinue = By.xpath("//button//span[text() = 'Continue']");
 
     //-------- End of defined locators
 

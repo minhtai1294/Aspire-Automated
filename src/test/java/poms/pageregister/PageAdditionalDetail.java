@@ -15,7 +15,7 @@ import java.util.List;
 
 public class PageAdditionalDetail extends APageObject<PageAdditionalDetail> {
 
-    Button    btn;
+    Button             btn;
     TextField          tfd;
     DropDown           drDw;
     DropDownTextSearch drDwTextSearch;
@@ -34,7 +34,7 @@ public class PageAdditionalDetail extends APageObject<PageAdditionalDetail> {
     By     bySelectApplicableOption = By.xpath("//div[@placeholder='Select applicable options']");
     String strRegistrationCard      = "//div[@class='auth-form__card']//div[@class='onboarding-step-register-select-method__column-content'][descendant::div[normalize-space() = '%s']]//span[@class='block'][normalize-space() = 'Get Started']";
     By     byButtonSubmit           = By.xpath("//button//span[text() = 'Submit']");
-    String strOTPDigitInput = "//div[@class='digit-input aspire-field']//div[contains(@class, 'digit-input__input')][%s]";
+    String strOTPDigitInput         = "//div[@class='digit-input aspire-field']//div[contains(@class, 'digit-input__input')][%s]";
 
     //-------- End of defined locators
 
@@ -98,7 +98,7 @@ public class PageAdditionalDetail extends APageObject<PageAdditionalDetail> {
             for (int i = 0; i < strOTP.length(); i++) {
                 String _strDigitToInput = String.valueOf(strOTP.charAt(i));
                 By     xPAth            = By.xpath(String.format(strOTPDigitInput, i + 1));
-                tfd.withLocator(By.xpath(String.format(strOTPDigitInput, i + 1))).inputAction(_strDigitToInput);
+                tfd.withLocator(By.xpath(String.format(strOTPDigitInput, i + 1))).actionInput(_strDigitToInput);
             }
             untilNoSpinner();
             untilNoInnerLoading();

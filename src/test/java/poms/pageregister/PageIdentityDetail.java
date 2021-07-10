@@ -2,7 +2,7 @@ package poms.pageregister;
 
 import components.level2.Button;
 import components.level1.DropDownTextSearch;
-import components.level2.RadioButton;
+import components.level1.RadioButton;
 import components.level2.TextField;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -49,6 +49,7 @@ public class PageIdentityDetail extends APageObject {
 
     public void pressConfirm() {
         btn.withLocator(byButtonConfirm).click();
+
     }
 
     public void uploadFile(String strPath) {

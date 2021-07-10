@@ -56,7 +56,7 @@ public class RegisterTest extends ATestScript {
         String _strShareholdersQualified    = (String) testCaseData.get("shareholdersQualified");
         String _strMoreThan10OrdinaryShares = (String) testCaseData.get("moreThan10OrdinaryShares");
         String _strDocumentOption           = (String) testCaseData.get("documentOption");
-        String _strFilePath                 = (String) testCaseData.get("filePath");
+        String _strFilePath                 = System.getProperty("user.dir").concat((String) testCaseData.get("filePath"));
 
 
         // start test steps
@@ -102,14 +102,23 @@ public class RegisterTest extends ATestScript {
             logger.info("Step {}: Select business role", step.next());
             _pRegister.selectBusinessRole(_strBusinessRole);
 
+            logger.info("Step {}: Verify Additional details page is loaded", step.next());
+            Assert.assertTrue(_pAdditionalDetail.isTextVisibleOnPage("Additional details"), "Failed: Additional details page is not loaded");
+
             logger.info("Step {}: Select solutions", step.next());
             _pAdditionalDetail.selectApplicableOptions(Arrays.asList(_strSolution));
 
             logger.info("Step {}: Press Continue", step.next());
             _pRegister.clickContinue();
 
+            logger.info("Step {}: Verify Choose a registration method page is loaded", step.next());
+            Assert.assertTrue(_pAdditionalDetail.isTextVisibleOnPage("Choose a registration method"), "Failed: Choose a registration method page is not loaded");
+
             logger.info("Step {}: Select registration method", step.next());
             _pAdditionalDetail.selectRegistrationMethod(_strRegistrationMethod);
+
+            logger.info("Step {}: Verify Personal Information page is loaded", step.next());
+            Assert.assertTrue(_pAdditionalDetail.isTextVisibleOnPage("Personal Information"), "Failed: Personal Details page is not loaded");
 
             logger.info("Step {}: Select date of birth", step.next());
             _pAdditionalDetail.selectDateOfBirth(_strDateOfBirth);
@@ -123,8 +132,14 @@ public class RegisterTest extends ATestScript {
             logger.info("Step {}: Press Submit", step.next());
             _pAdditionalDetail.submitPersonalDetail();
 
+            logger.info("Step {}: Verify Enter email OTP page is loaded", step.next());
+            Assert.assertTrue(_pAdditionalDetail.isTextVisibleOnPage("Enter email OTP"), "Failed: Enter email OTP page is not loaded");
+
             logger.info("Step {}: Input email OTP", step.next());
             _pAdditionalDetail.inputOTPNumber(_strEmailOPTNumber);
+
+            logger.info("Step {}: Verify Business Information page is loaded", step.next());
+            Assert.assertTrue(_pAdditionalDetail.isTextVisibleOnPage("Business Information"), "Failed: Business Information page is not loaded");
 
             logger.info("Step {}: Input Business legal name", step.next());
             _pBusinessDetail.inputBusinessLegalName(_strBusinessLegalName);
@@ -174,6 +189,9 @@ public class RegisterTest extends ATestScript {
             logger.info("Step {}: Press Continue", step.next());
             _pBusinessDetail.clickContinue();
 
+            logger.info("Step {}: Verify Complete your verification page is loaded", step.next());
+            Assert.assertTrue(_pIdentityDetail.isTextVisibleOnPage("Complete your verification"), "Failed: Complete your verification page is not loaded");
+
             logger.info("Step {}: Press Get Started", step.next());
             _pIdentityDetail.pressGetStarted();
 
@@ -189,6 +207,10 @@ public class RegisterTest extends ATestScript {
 
             logger.info("Step {}: Press Confirm", step.next());
             _pIdentityDetail.pressConfirm();
+
+            logger.info("Step {}: Verify Continue on your phone page is loaded", step.next());
+            Assert.assertTrue(_pIdentityDetail.isTextVisibleOnPage("Continue on your phone"), "Failed: Continue on your phone page is not loaded");
+            // fix cho nay con fail ham Confirm
 
 
         } catch (Exception | AssertionError e) {

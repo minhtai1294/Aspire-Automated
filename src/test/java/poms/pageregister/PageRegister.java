@@ -99,7 +99,7 @@ public class PageRegister extends APageObject {
             for (int i = 0; i < strOTP.length(); i++) {
                 String _strDigitToInput = String.valueOf(strOTP.charAt(i));
                 By     xPAth            = By.xpath(String.format(strOTPDigitInput, i + 1));
-                tfd.withLocator(By.xpath(String.format(strOTPDigitInput, i + 1))).inputAction(_strDigitToInput);
+                tfd.withLocator(By.xpath(String.format(strOTPDigitInput, i + 1))).actionInput(_strDigitToInput);
             }
         } catch (IndexOutOfBoundsException e) {
             logger.debug("Number of OTP digits was not match");
