@@ -42,5 +42,9 @@ public class AComponent<T extends AComponent> {
         return (T) this;
     }
 
+    public T untilInVisible() {
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+        return (T) this;
+    }
 
 }

@@ -12,15 +12,16 @@ public class ATestScript {
 
     WebDriver     driver;
     WebDriverWait wait;
-    Logger        logger;
+    Logger        logger = LogManager.getLogger(getClass());
+
 
     @BeforeMethod
-    public void ATestScriptInit(Object[] testData) throws Exception {
-        initTest(testData);
+    public void ATestScriptInit() throws Exception {
+        initTest();
     }
 
 
-    public void initTest(Object[] testData) throws Exception {
+    public void initTest() throws Exception {
 
         // get driver from driver factory
         DriverFactory _driverFactory = new DriverFactory();
@@ -32,7 +33,8 @@ public class ATestScript {
         logger = LogManager.getLogger(getClass());
 
         // open browser with url
-        String _urlAspire = "https://feature-qa.customer-frontend.staging.aspireapp.com/sg/";
+        driver.manage().deleteAllCookies();
+        String _urlAspire = "https://feature-qa-automation.customer-frontend.staging.aspireapp.com/sg/";
         driver.get(_urlAspire);
 
 
