@@ -7,7 +7,8 @@ Before you continue, ensure you meet the following requirements:
  
 * You have installed the latest version of IntelliJ IDEA Community or any IDE.
 * Java JDK 16 is installed. https://www.oracle.com/java/technologies/javase-downloads.html
-* (Otional) Install maven and set path in environment variables. This is for running from execution file. A simple guide: https://mkyong.com/maven/how-to-install-maven-in-windows/
+* Have lasted Chrome dirver and put it in path of environment variables
+* (Otional) Install maven and put in path environment variables. This is for running from execution file. Here is a guide: https://mkyong.com/maven/how-to-install-maven-in-windows/
 
 ## Technologies
 
