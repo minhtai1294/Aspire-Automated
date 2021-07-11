@@ -101,6 +101,7 @@ public class PageRegister extends APageObject {
                 By     xPAth            = By.xpath(String.format(strOTPDigitInput, i + 1));
                 tfd.withLocator(By.xpath(String.format(strOTPDigitInput, i + 1))).actionInput(_strDigitToInput);
             }
+            untilNoInnerLoading();
         } catch (IndexOutOfBoundsException e) {
             logger.debug("Number of OTP digits was not match");
             throw e;

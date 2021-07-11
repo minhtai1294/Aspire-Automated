@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-11T12:45:06 ICT" name="Register test" finished-at="2021-07-11T12:47:32 ICT" duration-ms="146333">
+    <groups>
+    </groups>
+    <test started-at="2021-07-11T12:45:06 ICT" name="testRegister" finished-at="2021-07-11T12:47:32 ICT" duration-ms="146333">
+      <class name="scripts.registerpagetest.RegisterTest">
+        <test-method is-config="true" signature="ATestScriptInit()[pri:0, instance:scripts.registerpagetest.RegisterTest@5e316c74]" started-at="2021-07-11T12:45:06 ICT" name="ATestScriptInit" finished-at="2021-07-11T12:45:09 ICT" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATestScriptInit -->
+        <test-method signature="testRegister(java.util.Map)[pri:0, instance:scripts.registerpagetest.RegisterTest@5e316c74]" started-at="2021-07-11T12:45:09 ICT" name="testRegister" data-provider="dataProvider" finished-at="2021-07-11T12:47:32 ICT" duration-ms="143368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+      </class> <!-- scripts.registerpagetest.RegisterTest -->
+    </test> <!-- testRegister -->
+  </suite> <!-- Register test -->
+</testng-results>

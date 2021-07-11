@@ -1,0 +1,15 @@
+poms\pageregister\PageIdentityDetail.class
+poms\pageregister\PageBusinessDetail.class
+components\level2\Checkbox.class
+components\AComponent.class
+poms\APageObject.class
+components\level1\RadioButton.class
+components\level2\Button.class
+components\level1\CalendarDate.class
+components\level2\TextField.class
+poms\pageregister\PageAdditionalDetail.class
+scripts\registerpagetest\RegisterTest.class
+components\level1\DropDown.class
+poms\pageregister\PageRegister.class
+scripts\ATestScript.class
+components\level1\DropDownTextSearch.class

@@ -33,6 +33,7 @@ public class PageIdentityDetail extends APageObject {
     By     byButtonUploadFile        = By.xpath("//button[text() = 'Upload file']");
     By     byButtonConfirm           = By.xpath("//button[text() = 'Confirm']");
     String strDocumentationOption    = "//button[contains(@class,'DocumentSelector-option')][descendant::p[text() = '%s']]";
+    By     byAuthSpinner             = By.xpath("//div[@class='auth-form']//div[@class='onfido-sdk-ui-Spinner-loader']");
 
     //-------- End of defined locators
 
@@ -49,7 +50,7 @@ public class PageIdentityDetail extends APageObject {
 
     public void pressConfirm() {
         btn.withLocator(byButtonConfirm).click();
-
+        btn.withLocator(byAuthSpinner).untilInVisible();
     }
 
     public void uploadFile(String strPath) {

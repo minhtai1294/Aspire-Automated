@@ -43,7 +43,13 @@ public class APageObject<T extends APageObject> {
     public boolean isTextVisibleOnPage(String text) {
         logger.debug("Check if this text is visible on page: " + text);
         untilPageIsCompletedLoaded();
-        return driver.findElements(By.xpath(String.format(strTextOnPage, text))).size() > 0;
+        try {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(String.format(strTextOnPage, text))));
+            logger.debug("Text is visible!");
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
     }
 
     public void untilNoSpinner() {

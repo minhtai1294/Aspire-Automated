@@ -24,7 +24,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.RegisterTest">
+    <configuration name="E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aspire Automated" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Aspire Automated" />
       <extension name="coverage">
@@ -45,6 +55,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegisterTest" />
+        <item itemvalue="TestNG.E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -58,5 +69,16 @@
       <updated>1625947604194</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/registerpagetest/RegisterTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

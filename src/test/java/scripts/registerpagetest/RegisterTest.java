@@ -11,6 +11,7 @@ import tools.DataParser;
 import scripts.ATestScript;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -26,6 +27,7 @@ public class RegisterTest extends ATestScript {
         PageIdentityDetail   _pIdentityDetail   = new PageIdentityDetail(driver, wait, logger);
 
         // prepare data
+        String _strRandomTime               = new SimpleDateFormat("ddHHmmss").format(Calendar.getInstance().getTime());
         String _uniqueID                    = UUID.randomUUID().toString();
         long   _intRandom                   = ThreadLocalRandom.current().nextLong();
         String _strRandom                   = Long.toString(_intRandom).substring(1, 10);
@@ -45,7 +47,7 @@ public class RegisterTest extends ATestScript {
         String _strBusinessLegalName        = (String) testCaseData.get("businessLegalName");
         String _strEntityCategory           = (String) testCaseData.get("entityCategory");
         String _strEntityType               = (String) testCaseData.get("entityType");
-        String _strRegistrationNumber       = (String) testCaseData.get("registrationNumber");
+        String _strRegistrationNumber       = _strRandomTime.concat("T");
         String _strIndustry                 = (String) testCaseData.get("industry");
         String _strSubIndustry              = (String) testCaseData.get("subIndustry");
         String _strBusinessActivity         = (String) testCaseData.get("businessActivity");
@@ -88,10 +90,6 @@ public class RegisterTest extends ATestScript {
 
             logger.info("Step {}: Input phone OTP number", step.next());
             _pRegister.inputOTPNumber(_strMobileOPTNumber);
-            _pRegister.untilNoSpinner();
-
-            logger.info("Step {}: Verify successfully verified page is loaded", step.next());
-            Assert.assertTrue(_pRegister.isTextVisibleOnPage("You have successfully verified your mobile number. You’re on to a great start!"), "Failed: Successfully verified mobile page is not loaded");
 
             logger.info("Step {}: Press Continue", step.next());
             _pRegister.clickContinue();
