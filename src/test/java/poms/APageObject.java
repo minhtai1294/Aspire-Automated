@@ -1,5 +1,6 @@
 package poms;
 
+import ipoms.IPageObject;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import tools.helpers.JavaExecuteScriptHelper;
 
-public class APageObject<T extends APageObject> {
+public class APageObject<T extends APageObject> implements IPageObject {
 
     protected WebDriver     driver;
     protected WebDriverWait wait;

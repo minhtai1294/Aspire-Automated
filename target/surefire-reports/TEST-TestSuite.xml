@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="146.917" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="389.808" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
-    <property name="sun.java.command" value="C:\Users\TAI NGUYEN\AppData\Local\Temp\surefire11850040284363028176\surefirebooter5995546834183103034.jar C:\Users\TAI NGUYEN\AppData\Local\Temp\surefire11850040284363028176 2021-07-11T12-45-05_681-jvmRun1 surefire10564068949757749590tmp surefire_0875825124032752480tmp"/>
+    <property name="sun.java.command" value="C:\Users\TAI NGUYEN\AppData\Local\Temp\surefire15146852283432914686\surefirebooter17803039051723025699.jar C:\Users\TAI NGUYEN\AppData\Local\Temp\surefire15146852283432914686 2021-07-11T16-04-06_546-jvmRun1 surefire596262445231608218tmp surefire_0582120535578502964tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\MINH TAI\Coding Projects\Aspire Auto\Aspire Automated\target\test-classes;E:\MINH TAI\Coding Projects\Aspire Auto\Aspire Automated\target\classes;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\TAI NGUYEN\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\TAI NGUYEN\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\TAI NGUYEN\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\TAI NGUYEN\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\TAI NGUYEN\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\TAI NGUYEN\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\TAI NGUYEN\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\TAI NGUYEN\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\TAI NGUYEN\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\TAI NGUYEN\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\TAI NGUYEN\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\TAI NGUYEN\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\TAI NGUYEN\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\TAI NGUYEN\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\TAI NGUYEN\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\TAI NGUYEN\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\TAI NGUYEN\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\TAI NGUYEN\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\TAI NGUYEN\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\TAI NGUYEN\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\TAI NGUYEN\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\TAI NGUYEN\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\TAI NGUYEN\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\TAI NGUYEN\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\TAI NGUYEN\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\TAI NGUYEN\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\TAI NGUYEN\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\TAI NGUYEN\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\TAI NGUYEN\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\TAI NGUYEN\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\TAI NGUYEN\AppData\Local\Temp\surefire11850040284363028176\surefirebooter5995546834183103034.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\TAI NGUYEN\AppData\Local\Temp\surefire15146852283432914686\surefirebooter17803039051723025699.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16+36-2231"/>
@@ -56,255 +56,721 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="testRegister[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}](1)" classname="scripts.registerpagetest.RegisterTest" time="143.764">
+  <testcase name="testFirstRegisterPage[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}](1)" classname="scripts.testsuites.registerpagetest.RegisterPageTest" time="34.332">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [E:\MINH TAI\Coding Projects\Aspire Auto\Aspire Automated\testng.xml] otherwise TestNG may fail or not work as expected.
-2021-07-11 12:45:09 INFO  ATestScript:66 - Step 1: click registration link
-2021-07-11 12:45:09 DEBUG ATestScript:45 - [PageRegister] click on Register Link
-2021-07-11 12:45:09 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //a[@class='text-primary text-bold login-step-start__register-link']
-2021-07-11 12:45:11 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:45:11 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:45:11 INFO  ATestScript:70 - Step 2: input user name
-2021-07-11 12:45:11 DEBUG ATestScript:50 - [PageRegister] input user full name: Tai A
-2021-07-11 12:45:11 DEBUG ATestScript:19 - 			[TextField] Input text: Tai A
-2021-07-11 12:45:11 INFO  ATestScript:73 - Step 3: input email address
-2021-07-11 12:45:11 DEBUG ATestScript:55 - [PageRegister] input user email address: mtaihrtnf940fb0d22d-4964-4b39-8e7b-b3897f808605@gmail.com
-2021-07-11 12:45:11 DEBUG ATestScript:19 - 			[TextField] Input text: mtaihrtnf940fb0d22d-4964-4b39-8e7b-b3897f808605@gmail.com
-2021-07-11 12:45:12 INFO  ATestScript:76 - Step 4: input mobile
-2021-07-11 12:45:12 DEBUG ATestScript:60 - [PageRegister] input user mobile: 691446599
-2021-07-11 12:45:12 DEBUG ATestScript:19 - 			[TextField] Input text: 691446599
-2021-07-11 12:45:12 INFO  ATestScript:79 - Step 5: Input Where did you hear about us
-2021-07-11 12:45:12 DEBUG ATestScript:89 - [PageRegister] Select Where you hear about us value: Brochure
-2021-07-11 12:45:12 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Where did you hear about us? for item: Brochure
-2021-07-11 12:45:12 DEBUG ATestScript:19 - 			[TextField] Input text: Brochure
-2021-07-11 12:45:12 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Brochure
-2021-07-11 12:45:12 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Brochure']
-2021-07-11 12:45:13 INFO  ATestScript:82 - Step 6: Agree Term and Policy
-2021-07-11 12:45:13 DEBUG ATestScript:76 - [PageRegister] Check on check box agree term and policy
-2021-07-11 12:45:13 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@role = 'checkbox'][following-sibling::div[contains(text(), 'I have read and agree with the')][a[contains(text(), 'Terms and Conditions')]][a[contains(text(), 'Privacy Policy')]]]
-2021-07-11 12:45:13 INFO  ATestScript:85 - Step 7: Click Continue
-2021-07-11 12:45:13 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
-2021-07-11 12:45:13 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
-2021-07-11 12:45:13 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:45:16 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:45:16 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:45:18 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:45:18 INFO  ATestScript:88 - Step 8: Verify next page is loaded
-2021-07-11 12:45:18 DEBUG ATestScript:44 - Check if this text is visible on page: Enter phone OTP
-2021-07-11 12:45:18 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:45:18 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:45:18 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:45:18 INFO  ATestScript:91 - Step 9: Input phone OTP number
-2021-07-11 12:45:18 DEBUG ATestScript:96 - [PageRegister] input OTP number: 1234
-2021-07-11 12:45:18 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
-2021-07-11 12:45:18 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
-2021-07-11 12:45:18 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
-2021-07-11 12:45:19 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
-2021-07-11 12:45:19 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:45:21 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:45:21 INFO  ATestScript:94 - Step 10: Press Continue
-2021-07-11 12:45:21 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
-2021-07-11 12:45:21 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
-2021-07-11 12:45:22 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:45:32 DEBUG ATestScript:61 - No spinner is displayed
-2021-07-11 12:45:32 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:45:32 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:45:42 DEBUG ATestScript:72 - No loading is displayed
-2021-07-11 12:45:42 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:45:42 INFO  ATestScript:97 - Step 11: Verify Tell us more about yourself page is loaded
-2021-07-11 12:45:42 DEBUG ATestScript:44 - Check if this text is visible on page: Tell us more about yourself
-2021-07-11 12:45:42 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:45:42 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:45:42 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:45:42 INFO  ATestScript:100 - Step 12: Select business role
-2021-07-11 12:45:42 DEBUG ATestScript:113 - [PageRegister] Select business role: I am a registered director of the company
-2021-07-11 12:45:42 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class, 'business-role')]/div[contains(@class, 'aspire-card')]//div[contains(text(), 'I am a registered director of the company')]
-2021-07-11 12:45:42 INFO  ATestScript:103 - Step 13: Verify Additional details page is loaded
-2021-07-11 12:45:42 DEBUG ATestScript:44 - Check if this text is visible on page: Additional details
-2021-07-11 12:45:42 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:45:42 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:45:42 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:45:42 INFO  ATestScript:106 - Step 14: Select solutions
-2021-07-11 12:45:42 DEBUG ATestScript:49 - [PageAdditionalDetail] Select Applicable Option: [accusantium]
-2021-07-11 12:45:42 DEBUG ATestScript:35 - 		[DropDown] Open dropdown: What solutions are you looking for?
-2021-07-11 12:45:42 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-select')]//i
-2021-07-11 12:45:43 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: accusantium
-2021-07-11 12:45:43 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'accusantium']
-2021-07-11 12:45:44 DEBUG ATestScript:52 - 		[DropDown] Close drop down: What solutions are you looking for?
-2021-07-11 12:45:44 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-field--highlighted')]
-2021-07-11 12:45:44 INFO  ATestScript:109 - Step 15: Press Continue
-2021-07-11 12:45:44 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
-2021-07-11 12:45:44 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
-2021-07-11 12:45:44 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:45:49 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:45:49 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:45:59 DEBUG ATestScript:72 - No loading is displayed
-2021-07-11 12:45:59 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:45:59 INFO  ATestScript:112 - Step 16: Verify Choose a registration method page is loaded
-2021-07-11 12:45:59 DEBUG ATestScript:44 - Check if this text is visible on page: Choose a registration method
-2021-07-11 12:45:59 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:45:59 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:45:59 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:45:59 INFO  ATestScript:115 - Step 17: Select registration method
-2021-07-11 12:45:59 DEBUG ATestScript:64 - [PageAdditionalDetail] Select Registration Method: Standard Registration
-2021-07-11 12:45:59 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='auth-form__card']//div[@class='onboarding-step-register-select-method__column-content'][descendant::div[normalize-space() = 'Standard Registration']]//span[@class='block'][normalize-space() = 'Get Started']
-2021-07-11 12:45:59 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:46:00 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:46:00 INFO  ATestScript:118 - Step 18: Verify Personal Information page is loaded
-2021-07-11 12:46:00 DEBUG ATestScript:44 - Check if this text is visible on page: Personal Information
-2021-07-11 12:46:00 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:46:00 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:46:00 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:46:00 INFO  ATestScript:121 - Step 19: Select date of birth
-2021-07-11 12:46:00 DEBUG ATestScript:70 - [PageAdditionalDetail] Select Date: 6/Dec/1994
-2021-07-11 12:46:00 DEBUG ATestScript:37 - 		[CalendarDate] Open calendar field name: Date of birth
-2021-07-11 12:46:00 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'Date of birth']/following::label[contains(@class, 'q-input')]/div
-2021-07-11 12:46:01 DEBUG ATestScript:44 - 		[CalendarDate] Select month: Dec
-2021-07-11 12:46:01 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center col']
-2021-07-11 12:46:01 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__months-item flex flex-center']//span[@class='block'][normalize-space() = 'Dec']
-2021-07-11 12:46:01 DEBUG ATestScript:52 - 		[CalendarDate] Select year: 1994
-2021-07-11 12:46:01 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center']
-2021-07-11 12:46:02 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
-2021-07-11 12:46:02 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
-2021-07-11 12:46:02 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__years-item flex flex-center']//span[@class='block'][normalize-space() = '1994']
-2021-07-11 12:46:02 DEBUG ATestScript:68 - 		[CalendarDate] Select day: 6
-2021-07-11 12:46:02 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__calendar-item q-date__calendar-item--in']//span[@class='block'][normalize-space() = '6']
-2021-07-11 12:46:03 INFO  ATestScript:124 - Step 20: Select nationality
-2021-07-11 12:46:03 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Nationality for item: Singapore
-2021-07-11 12:46:03 DEBUG ATestScript:19 - 			[TextField] Input text: Singapore
-2021-07-11 12:46:04 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Singapore
-2021-07-11 12:46:04 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Singapore']
-2021-07-11 12:46:04 INFO  ATestScript:127 - Step 21: Select gender
-2021-07-11 12:46:04 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Gender for item: Male
-2021-07-11 12:46:04 DEBUG ATestScript:19 - 			[TextField] Input text: Male
-2021-07-11 12:46:04 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Male
-2021-07-11 12:46:04 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Male']
-2021-07-11 12:46:04 INFO  ATestScript:130 - Step 22: Press Submit
-2021-07-11 12:46:04 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
-2021-07-11 12:46:05 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:46:08 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:46:08 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:46:09 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:46:09 INFO  ATestScript:133 - Step 23: Verify Enter email OTP page is loaded
-2021-07-11 12:46:09 DEBUG ATestScript:44 - Check if this text is visible on page: Enter email OTP
-2021-07-11 12:46:09 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:46:09 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:46:09 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:46:09 INFO  ATestScript:136 - Step 24: Input email OTP
-2021-07-11 12:46:09 DEBUG ATestScript:95 - [PageRegister] input OTP number: 1234
-2021-07-11 12:46:09 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
-2021-07-11 12:46:09 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
-2021-07-11 12:46:10 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
-2021-07-11 12:46:10 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
-2021-07-11 12:46:10 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:46:14 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:46:14 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:46:25 DEBUG ATestScript:72 - No loading is displayed
-2021-07-11 12:46:25 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:46:25 INFO  ATestScript:139 - Step 25: Verify Business Information page is loaded
-2021-07-11 12:46:25 DEBUG ATestScript:44 - Check if this text is visible on page: Business Information
-2021-07-11 12:46:25 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:46:25 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:46:25 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:46:25 INFO  ATestScript:142 - Step 26: Input Business legal name
-2021-07-11 12:46:25 DEBUG ATestScript:19 - 			[TextField] Input text: NMT
-2021-07-11 12:46:25 INFO  ATestScript:145 - Step 27: Select Entity Category
-2021-07-11 12:46:25 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Entity category for item: Non profit organization
-2021-07-11 12:46:25 DEBUG ATestScript:19 - 			[TextField] Input text: Non profit organization
-2021-07-11 12:46:25 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Non profit organization
-2021-07-11 12:46:25 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Non profit organization']
-2021-07-11 12:46:25 INFO  ATestScript:148 - Step 28: Select Entity type
-2021-07-11 12:46:25 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Entity type for item: Charities
-2021-07-11 12:46:25 DEBUG ATestScript:19 - 			[TextField] Input text: Charities
-2021-07-11 12:46:26 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Charities
-2021-07-11 12:46:26 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Charities']
-2021-07-11 12:46:26 INFO  ATestScript:151 - Step 29: Select Business registration number (UEN)
-2021-07-11 12:46:26 DEBUG ATestScript:19 - 			[TextField] Input text: 11124509T
-2021-07-11 12:46:26 INFO  ATestScript:154 - Step 30: Select Industry
-2021-07-11 12:46:26 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Industry for item: Retail Goods
-2021-07-11 12:46:26 DEBUG ATestScript:19 - 			[TextField] Input text: Retail Goods
-2021-07-11 12:46:27 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Retail Goods
-2021-07-11 12:46:27 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Retail Goods']
-2021-07-11 12:46:27 INFO  ATestScript:157 - Step 31: Select Sub-Industry
-2021-07-11 12:46:27 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Sub-Industry for item: Fine Arts
-2021-07-11 12:46:27 DEBUG ATestScript:19 - 			[TextField] Input text: Fine Arts
-2021-07-11 12:46:28 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Fine Arts
-2021-07-11 12:46:28 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Fine Arts']
-2021-07-11 12:46:28 INFO  ATestScript:160 - Step 32: Press Continue
-2021-07-11 12:46:28 DEBUG ATestScript:98 - [PageRegister] Click on button Continue
-2021-07-11 12:46:28 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
-2021-07-11 12:46:28 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:46:29 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:46:29 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:46:39 DEBUG ATestScript:72 - No loading is displayed
-2021-07-11 12:46:39 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:46:39 INFO  ATestScript:163 - Step 33: Input Business activity
-2021-07-11 12:46:39 DEBUG ATestScript:19 - 			[TextField] Input text: Americans love to talk about how Americans hate to talk about money
-2021-07-11 12:46:40 INFO  ATestScript:166 - Step 34: Input example of product/services provided
-2021-07-11 12:46:40 DEBUG ATestScript:19 - 			[TextField] Input text: A service provider provides organizations with consulting
-2021-07-11 12:46:40 INFO  ATestScript:169 - Step 35: Input Live business website
-2021-07-11 12:46:40 DEBUG ATestScript:19 - 			[TextField] Input text: www.nmt1.site
-2021-07-11 12:46:40 INFO  ATestScript:172 - Step 36: Select Number of employees
-2021-07-11 12:46:40 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Number of employees for item: 11-50
-2021-07-11 12:46:40 DEBUG ATestScript:19 - 			[TextField] Input text: 11-50
-2021-07-11 12:46:41 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: 11-50
-2021-07-11 12:46:41 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = '11-50']
-2021-07-11 12:46:41 INFO  ATestScript:175 - Step 37: Select Annual turnover
-2021-07-11 12:46:41 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Annual turnover for item: S$0 - S$50,000
-2021-07-11 12:46:41 DEBUG ATestScript:19 - 			[TextField] Input text: S$0 - S$50,000
-2021-07-11 12:46:42 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: S$0 - S$50,000
-2021-07-11 12:46:42 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'S$0 - S$50,000']
-2021-07-11 12:46:42 INFO  ATestScript:178 - Step 38: Submit business detail
-2021-07-11 12:46:42 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
-2021-07-11 12:46:42 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:46:52 DEBUG ATestScript:61 - No spinner is displayed
-2021-07-11 12:46:52 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:46:52 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:47:03 DEBUG ATestScript:72 - No loading is displayed
-2021-07-11 12:47:03 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:47:03 INFO  ATestScript:181 - Step 39: Select Does any of your company directors or shareholders qualify as Politically ...
-2021-07-11 12:47:03 DEBUG ATestScript:28 - 		[RadioButton] Radio button statement: Does any of your company directors or shareholders qualify as Politically Exposed Person (PEP), close family member or close associate of a PEP?
-2021-07-11 12:47:03 DEBUG ATestScript:34 - 		[RadioButton] Select value: No
-2021-07-11 12:47:03 DEBUG ATestScript:41 - 		[RadioButton] Get status of value: No
-2021-07-11 12:47:03 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(text(), 'Does any of your company directors or shareholders qualify as Politically Exposed Person (PEP), close family member or close associate of a PEP?')]//following::div[contains(@class, 'q-radio')][@aria-checked][normalize-space() = 'No']
-2021-07-11 12:47:03 INFO  ATestScript:184 - Step 40: Select Does your company have corporate shareholders with more than 10% ordinary shares?
-2021-07-11 12:47:03 DEBUG ATestScript:28 - 		[RadioButton] Radio button statement: Does your company have corporate shareholders with more than 10%% ordinary shares?
-2021-07-11 12:47:03 DEBUG ATestScript:34 - 		[RadioButton] Select value: No
-2021-07-11 12:47:03 DEBUG ATestScript:41 - 		[RadioButton] Get status of value: No
-2021-07-11 12:47:03 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(text(), 'Does your company have corporate shareholders with more than 10% ordinary shares?')]//following::div[contains(@class, 'q-radio')][@aria-checked][normalize-space() = 'No']
-2021-07-11 12:47:03 INFO  ATestScript:187 - Step 41: Press Continue
-2021-07-11 12:47:03 DEBUG ATestScript:98 - [PageRegister] Click on button Continue
-2021-07-11 12:47:03 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
-2021-07-11 12:47:03 DEBUG ATestScript:56 - Wait for Spinner to disappear...
-2021-07-11 12:47:11 DEBUG ATestScript:63 - ...Spinner disappeared
-2021-07-11 12:47:11 DEBUG ATestScript:67 - Wait for Loading to disappear...
-2021-07-11 12:47:22 DEBUG ATestScript:72 - No loading is displayed
-2021-07-11 12:47:22 DEBUG ATestScript:74 - ...Loading disappeared
-2021-07-11 12:47:22 INFO  ATestScript:190 - Step 42: Verify Complete your verification page is loaded
-2021-07-11 12:47:22 DEBUG ATestScript:44 - Check if this text is visible on page: Complete your verification
-2021-07-11 12:47:22 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:47:22 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:47:22 DEBUG ATestScript:48 - Text is visible!
-2021-07-11 12:47:22 INFO  ATestScript:193 - Step 43: Press Get Started
-2021-07-11 12:47:22 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Get Started']
-2021-07-11 12:47:22 INFO  ATestScript:196 - Step 44: Press Begin Verification
-2021-07-11 12:47:22 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Begin Verification']
-2021-07-11 12:47:23 INFO  ATestScript:199 - Step 45: Select document option
-2021-07-11 12:47:23 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button[contains(@class,'DocumentSelector-option')][descendant::p[text() = 'Passport']]
-2021-07-11 12:47:24 INFO  ATestScript:202 - Step 46: Upload file
-2021-07-11 12:47:24 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button[text() = 'Upload file']
-2021-07-11 12:47:24 INFO  ATestScript:206 - Step 47: Press Confirm
-2021-07-11 12:47:24 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button[text() = 'Confirm']
-2021-07-11 12:47:32 INFO  ATestScript:209 - Step 48: Verify Continue on your phone page is loaded
-2021-07-11 12:47:32 DEBUG ATestScript:44 - Check if this text is visible on page: Continue on your phone
-2021-07-11 12:47:32 DEBUG ATestScript:36 - Wait for page loaded completely...
-2021-07-11 12:47:32 DEBUG ATestScript:39 - ...Page loaded completely
-2021-07-11 12:47:32 DEBUG ATestScript:48 - Text is visible!
+2021-07-11 16:04:11 INFO  ATestScript:40 - Step 1: click registration link
+2021-07-11 16:04:11 DEBUG ATestScript:45 - [PageRegister] click on Register Link
+2021-07-11 16:04:11 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //a[@class='text-primary text-bold login-step-start__register-link']
+2021-07-11 16:04:12 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:04:12 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:04:12 INFO  ATestScript:44 - Step 2: input user name
+2021-07-11 16:04:12 DEBUG ATestScript:50 - [PageRegister] input user full name: Tai A
+2021-07-11 16:04:12 DEBUG ATestScript:19 - 			[TextField] Input text: Tai A
+2021-07-11 16:04:13 INFO  ATestScript:47 - Step 3: input email address
+2021-07-11 16:04:13 DEBUG ATestScript:55 - [PageRegister] input user email address: mtaihrtnf948686130f-7add-4a4a-b5e9-ce79100123e8@gmail.com
+2021-07-11 16:04:13 DEBUG ATestScript:19 - 			[TextField] Input text: mtaihrtnf948686130f-7add-4a4a-b5e9-ce79100123e8@gmail.com
+2021-07-11 16:04:13 INFO  ATestScript:50 - Step 4: input mobile
+2021-07-11 16:04:13 DEBUG ATestScript:60 - [PageRegister] input user mobile: 718717725
+2021-07-11 16:04:13 DEBUG ATestScript:19 - 			[TextField] Input text: 718717725
+2021-07-11 16:04:13 INFO  ATestScript:53 - Step 5: Input Where did you hear about us
+2021-07-11 16:04:13 DEBUG ATestScript:89 - [PageRegister] Select Where you hear about us value: Brochure
+2021-07-11 16:04:13 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Where did you hear about us? for item: Brochure
+2021-07-11 16:04:13 DEBUG ATestScript:19 - 			[TextField] Input text: Brochure
+2021-07-11 16:04:14 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Brochure
+2021-07-11 16:04:14 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Brochure']
+2021-07-11 16:04:14 INFO  ATestScript:56 - Step 6: Agree Term and Policy
+2021-07-11 16:04:14 DEBUG ATestScript:76 - [PageRegister] Check on check box agree term and policy
+2021-07-11 16:04:14 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@role = 'checkbox'][following-sibling::div[contains(text(), 'I have read and agree with the')][a[contains(text(), 'Terms and Conditions')]][a[contains(text(), 'Privacy Policy')]]]
+2021-07-11 16:04:14 INFO  ATestScript:59 - Step 7: Click Continue
+2021-07-11 16:04:14 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:04:14 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:04:14 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:04:18 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:04:18 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:04:20 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:04:20 INFO  ATestScript:62 - Step 8: Verify next page is loaded
+2021-07-11 16:04:20 DEBUG ATestScript:45 - Check if this text is visible on page: Enter phone OTP
+2021-07-11 16:04:20 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:04:20 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:04:20 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:04:20 INFO  ATestScript:65 - Step 9: Input phone OTP number
+2021-07-11 16:04:20 DEBUG ATestScript:96 - [PageRegister] input OTP number: 1234
+2021-07-11 16:04:20 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:04:20 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:04:21 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:04:21 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:04:21 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:04:24 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:04:24 INFO  ATestScript:68 - Step 10: Press Continue
+2021-07-11 16:04:24 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:04:24 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:04:24 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:04:34 DEBUG ATestScript:62 - No spinner is displayed
+2021-07-11 16:04:34 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:04:34 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:04:45 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:04:45 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:04:45 INFO  ATestScript:71 - Step 11: Verify Tell us more about yourself page is loaded
+2021-07-11 16:04:45 DEBUG ATestScript:45 - Check if this text is visible on page: Tell us more about yourself
+2021-07-11 16:04:45 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:04:45 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:04:45 DEBUG ATestScript:49 - Text is visible!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 21845
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 21826
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 11, 2021 12:45:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 11, 2021 4:04:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testAdditionalDetailsPage[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}](1)" classname="scripts.testsuites.registerpagetest.AdditionalDetailPageTest" time="75.837">
+    <system-out><![CDATA[2021-07-11 16:04:47 INFO  ATestScript:52 - Precondition step 1: click registration link
+2021-07-11 16:04:47 DEBUG ATestScript:45 - [PageRegister] click on Register Link
+2021-07-11 16:04:47 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //a[@class='text-primary text-bold login-step-start__register-link']
+2021-07-11 16:04:49 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:04:49 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:04:49 INFO  ATestScript:56 - Precondition step 2: input user name
+2021-07-11 16:04:49 DEBUG ATestScript:50 - [PageRegister] input user full name: Tai A
+2021-07-11 16:04:49 DEBUG ATestScript:19 - 			[TextField] Input text: Tai A
+2021-07-11 16:04:50 INFO  ATestScript:59 - Precondition step 3: input email address
+2021-07-11 16:04:50 DEBUG ATestScript:55 - [PageRegister] input user email address: mtaihrtnf94409776cc-8ae7-429e-a92e-69a733f83204@gmail.com
+2021-07-11 16:04:50 DEBUG ATestScript:19 - 			[TextField] Input text: mtaihrtnf94409776cc-8ae7-429e-a92e-69a733f83204@gmail.com
+2021-07-11 16:04:50 INFO  ATestScript:62 - Precondition step 4: input mobile
+2021-07-11 16:04:50 DEBUG ATestScript:60 - [PageRegister] input user mobile: 572481117
+2021-07-11 16:04:50 DEBUG ATestScript:19 - 			[TextField] Input text: 572481117
+2021-07-11 16:04:50 INFO  ATestScript:65 - Precondition step 5: Input Where did you hear about us
+2021-07-11 16:04:50 DEBUG ATestScript:89 - [PageRegister] Select Where you hear about us value: Brochure
+2021-07-11 16:04:50 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Where did you hear about us? for item: Brochure
+2021-07-11 16:04:50 DEBUG ATestScript:19 - 			[TextField] Input text: Brochure
+2021-07-11 16:04:51 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Brochure
+2021-07-11 16:04:51 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Brochure']
+2021-07-11 16:04:51 INFO  ATestScript:68 - Precondition step 6: Agree Term and Policy
+2021-07-11 16:04:51 DEBUG ATestScript:76 - [PageRegister] Check on check box agree term and policy
+2021-07-11 16:04:51 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@role = 'checkbox'][following-sibling::div[contains(text(), 'I have read and agree with the')][a[contains(text(), 'Terms and Conditions')]][a[contains(text(), 'Privacy Policy')]]]
+2021-07-11 16:04:51 INFO  ATestScript:71 - Precondition step 7: Click Continue
+2021-07-11 16:04:51 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:04:51 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:04:51 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:04:55 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:04:55 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:04:57 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:04:57 INFO  ATestScript:74 - Precondition step 8: Verify next page is loaded
+2021-07-11 16:04:57 DEBUG ATestScript:45 - Check if this text is visible on page: Enter phone OTP
+2021-07-11 16:04:57 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:04:57 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:04:57 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:04:57 INFO  ATestScript:77 - Precondition step 9: Input phone OTP number
+2021-07-11 16:04:57 DEBUG ATestScript:96 - [PageRegister] input OTP number: 1234
+2021-07-11 16:04:57 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:04:57 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:04:57 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:04:57 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:04:58 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:05:01 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:05:01 INFO  ATestScript:80 - Precondition step 10: Press Continue
+2021-07-11 16:05:01 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:05:01 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:05:01 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:05:11 DEBUG ATestScript:62 - No spinner is displayed
+2021-07-11 16:05:11 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:05:11 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:05:21 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:05:21 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:05:21 INFO  ATestScript:83 - Precondition step 11: Verify Tell us more about yourself page is loaded
+2021-07-11 16:05:21 DEBUG ATestScript:45 - Check if this text is visible on page: Tell us more about yourself
+2021-07-11 16:05:21 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:05:21 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:05:21 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:05:21 INFO  ATestScript:86 - Precondition step 12: Select business role
+2021-07-11 16:05:21 DEBUG ATestScript:113 - [PageRegister] Select business role: I am a registered director of the company
+2021-07-11 16:05:21 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class, 'business-role')]/div[contains(@class, 'aspire-card')]//div[contains(text(), 'I am a registered director of the company')]
+2021-07-11 16:05:21 INFO  ATestScript:89 - Precondition step 13: Verify Additional details page is loaded
+2021-07-11 16:05:21 DEBUG ATestScript:45 - Check if this text is visible on page: Additional details
+2021-07-11 16:05:21 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:05:21 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:05:21 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:05:21 INFO  ATestScript:92 - Precondition step 14: Select solutions
+2021-07-11 16:05:21 DEBUG ATestScript:49 - [PageAdditionalDetail] Select Applicable Option: [accusantium]
+2021-07-11 16:05:21 DEBUG ATestScript:35 - 		[DropDown] Open dropdown: What solutions are you looking for?
+2021-07-11 16:05:21 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-select')]//i
+2021-07-11 16:05:22 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: accusantium
+2021-07-11 16:05:22 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'accusantium']
+2021-07-11 16:05:23 DEBUG ATestScript:52 - 		[DropDown] Close drop down: What solutions are you looking for?
+2021-07-11 16:05:23 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-field--highlighted')]
+2021-07-11 16:05:23 INFO  ATestScript:95 - Precondition step 15: Press Continue
+2021-07-11 16:05:23 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:05:23 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:05:23 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:05:27 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:05:27 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:05:38 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:05:38 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:05:38 INFO  ATestScript:106 - Step 1: Verify Choose a registration method page is loaded
+2021-07-11 16:05:38 DEBUG ATestScript:45 - Check if this text is visible on page: Choose a registration method
+2021-07-11 16:05:38 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:05:38 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:05:38 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:05:38 INFO  ATestScript:109 - Step 2: Select registration method
+2021-07-11 16:05:38 DEBUG ATestScript:64 - [PageAdditionalDetail] Select Registration Method: Standard Registration
+2021-07-11 16:05:38 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='auth-form__card']//div[@class='onboarding-step-register-select-method__column-content'][descendant::div[normalize-space() = 'Standard Registration']]//span[@class='block'][normalize-space() = 'Get Started']
+2021-07-11 16:05:38 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:05:39 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:05:39 INFO  ATestScript:112 - Step 3: Verify Personal Information page is loaded
+2021-07-11 16:05:39 DEBUG ATestScript:45 - Check if this text is visible on page: Personal Information
+2021-07-11 16:05:39 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:05:39 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:05:39 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:05:39 INFO  ATestScript:115 - Step 4: Select date of birth
+2021-07-11 16:05:39 DEBUG ATestScript:70 - [PageAdditionalDetail] Select Date: 6/Dec/1994
+2021-07-11 16:05:39 DEBUG ATestScript:37 - 		[CalendarDate] Open calendar field name: Date of birth
+2021-07-11 16:05:39 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'Date of birth']/following::label[contains(@class, 'q-input')]/div
+2021-07-11 16:05:39 DEBUG ATestScript:44 - 		[CalendarDate] Select month: Dec
+2021-07-11 16:05:39 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center col']
+2021-07-11 16:05:39 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__months-item flex flex-center']//span[@class='block'][normalize-space() = 'Dec']
+2021-07-11 16:05:40 DEBUG ATestScript:52 - 		[CalendarDate] Select year: 1994
+2021-07-11 16:05:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center']
+2021-07-11 16:05:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
+2021-07-11 16:05:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
+2021-07-11 16:05:41 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__years-item flex flex-center']//span[@class='block'][normalize-space() = '1994']
+2021-07-11 16:05:41 DEBUG ATestScript:68 - 		[CalendarDate] Select day: 6
+2021-07-11 16:05:41 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__calendar-item q-date__calendar-item--in']//span[@class='block'][normalize-space() = '6']
+2021-07-11 16:05:42 INFO  ATestScript:118 - Step 5: Select nationality
+2021-07-11 16:05:42 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Nationality for item: Singapore
+2021-07-11 16:05:42 DEBUG ATestScript:19 - 			[TextField] Input text: Singapore
+2021-07-11 16:05:42 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Singapore
+2021-07-11 16:05:42 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Singapore']
+2021-07-11 16:05:42 INFO  ATestScript:121 - Step 6: Select gender
+2021-07-11 16:05:42 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Gender for item: Male
+2021-07-11 16:05:42 DEBUG ATestScript:19 - 			[TextField] Input text: Male
+2021-07-11 16:05:43 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Male
+2021-07-11 16:05:43 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Male']
+2021-07-11 16:05:43 INFO  ATestScript:124 - Step 7: Press Submit
+2021-07-11 16:05:43 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
+2021-07-11 16:05:43 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:05:46 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:05:46 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:05:48 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:05:48 INFO  ATestScript:127 - Step 8: Verify Enter email OTP page is loaded
+2021-07-11 16:05:48 DEBUG ATestScript:45 - Check if this text is visible on page: Enter email OTP
+2021-07-11 16:05:48 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:05:48 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:05:48 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:05:48 INFO  ATestScript:130 - Step 9: Input email OTP
+2021-07-11 16:05:48 DEBUG ATestScript:95 - [PageRegister] input OTP number: 1234
+2021-07-11 16:05:48 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:05:48 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:05:48 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:05:48 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:05:49 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:05:52 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:05:52 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:06:02 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:06:02 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:06:02 INFO  ATestScript:133 - Step 10: Verify Business Information page is loaded
+2021-07-11 16:06:02 DEBUG ATestScript:45 - Check if this text is visible on page: Business Information
+2021-07-11 16:06:02 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:02 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:02 DEBUG ATestScript:49 - Text is visible!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 13496
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2021 4:04:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testBusinessDetailPage[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}](1)" classname="scripts.testsuites.registerpagetest.BusinessPageTest" time="134.601">
+    <system-out><![CDATA[2021-07-11 16:06:04 INFO  ATestScript:66 - Precondition step 1: click registration link
+2021-07-11 16:06:04 DEBUG ATestScript:45 - [PageRegister] click on Register Link
+2021-07-11 16:06:04 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //a[@class='text-primary text-bold login-step-start__register-link']
+2021-07-11 16:06:07 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:07 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:07 INFO  ATestScript:70 - Precondition step 2: input user name
+2021-07-11 16:06:07 DEBUG ATestScript:50 - [PageRegister] input user full name: Tai A
+2021-07-11 16:06:07 DEBUG ATestScript:19 - 			[TextField] Input text: Tai A
+2021-07-11 16:06:07 INFO  ATestScript:73 - Precondition step 3: input email address
+2021-07-11 16:06:07 DEBUG ATestScript:55 - [PageRegister] input user email address: mtaihrtnf94ca076731-8370-4778-b173-d6998ea90a4c@gmail.com
+2021-07-11 16:06:07 DEBUG ATestScript:19 - 			[TextField] Input text: mtaihrtnf94ca076731-8370-4778-b173-d6998ea90a4c@gmail.com
+2021-07-11 16:06:08 INFO  ATestScript:76 - Precondition step 4: input mobile
+2021-07-11 16:06:08 DEBUG ATestScript:60 - [PageRegister] input user mobile: 780016302
+2021-07-11 16:06:08 DEBUG ATestScript:19 - 			[TextField] Input text: 780016302
+2021-07-11 16:06:08 INFO  ATestScript:79 - Precondition step 5: Input Where did you hear about us
+2021-07-11 16:06:08 DEBUG ATestScript:89 - [PageRegister] Select Where you hear about us value: Brochure
+2021-07-11 16:06:08 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Where did you hear about us? for item: Brochure
+2021-07-11 16:06:08 DEBUG ATestScript:19 - 			[TextField] Input text: Brochure
+2021-07-11 16:06:08 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Brochure
+2021-07-11 16:06:08 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Brochure']
+2021-07-11 16:06:08 INFO  ATestScript:82 - Precondition step 6: Agree Term and Policy
+2021-07-11 16:06:08 DEBUG ATestScript:76 - [PageRegister] Check on check box agree term and policy
+2021-07-11 16:06:08 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@role = 'checkbox'][following-sibling::div[contains(text(), 'I have read and agree with the')][a[contains(text(), 'Terms and Conditions')]][a[contains(text(), 'Privacy Policy')]]]
+2021-07-11 16:06:08 INFO  ATestScript:85 - Precondition step 7: Click Continue
+2021-07-11 16:06:08 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:06:08 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:06:09 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:06:12 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:06:12 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:06:14 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:06:14 INFO  ATestScript:88 - Precondition step 8: Verify next page is loaded
+2021-07-11 16:06:14 DEBUG ATestScript:45 - Check if this text is visible on page: Enter phone OTP
+2021-07-11 16:06:14 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:14 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:14 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:06:14 INFO  ATestScript:91 - Precondition step 9: Input phone OTP number
+2021-07-11 16:06:14 DEBUG ATestScript:96 - [PageRegister] input OTP number: 1234
+2021-07-11 16:06:14 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:06:14 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:06:15 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:06:15 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:06:15 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:06:18 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:06:18 INFO  ATestScript:94 - Precondition step 10: Press Continue
+2021-07-11 16:06:18 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:06:18 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:06:18 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:06:28 DEBUG ATestScript:62 - No spinner is displayed
+2021-07-11 16:06:28 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:06:28 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:06:38 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:06:38 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:06:38 INFO  ATestScript:97 - Precondition step 11: Verify Tell us more about yourself page is loaded
+2021-07-11 16:06:38 DEBUG ATestScript:45 - Check if this text is visible on page: Tell us more about yourself
+2021-07-11 16:06:38 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:38 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:38 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:06:38 INFO  ATestScript:100 - Precondition step 12: Select business role
+2021-07-11 16:06:38 DEBUG ATestScript:113 - [PageRegister] Select business role: I am a registered director of the company
+2021-07-11 16:06:38 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class, 'business-role')]/div[contains(@class, 'aspire-card')]//div[contains(text(), 'I am a registered director of the company')]
+2021-07-11 16:06:39 INFO  ATestScript:103 - Precondition step 13: Verify Additional details page is loaded
+2021-07-11 16:06:39 DEBUG ATestScript:45 - Check if this text is visible on page: Additional details
+2021-07-11 16:06:39 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:39 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:39 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:06:39 INFO  ATestScript:106 - Precondition step 14: Select solutions
+2021-07-11 16:06:39 DEBUG ATestScript:49 - [PageAdditionalDetail] Select Applicable Option: [accusantium]
+2021-07-11 16:06:39 DEBUG ATestScript:35 - 		[DropDown] Open dropdown: What solutions are you looking for?
+2021-07-11 16:06:39 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-select')]//i
+2021-07-11 16:06:40 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: accusantium
+2021-07-11 16:06:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'accusantium']
+2021-07-11 16:06:40 DEBUG ATestScript:52 - 		[DropDown] Close drop down: What solutions are you looking for?
+2021-07-11 16:06:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-field--highlighted')]
+2021-07-11 16:06:40 INFO  ATestScript:109 - Precondition step 15: Press Continue
+2021-07-11 16:06:40 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:06:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:06:41 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:06:45 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:06:45 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:06:55 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:06:55 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:06:55 INFO  ATestScript:112 - Precondition step 16: Verify Choose a registration method page is loaded
+2021-07-11 16:06:55 DEBUG ATestScript:45 - Check if this text is visible on page: Choose a registration method
+2021-07-11 16:06:55 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:55 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:55 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:06:55 INFO  ATestScript:115 - Precondition step 17: Select registration method
+2021-07-11 16:06:55 DEBUG ATestScript:64 - [PageAdditionalDetail] Select Registration Method: Standard Registration
+2021-07-11 16:06:55 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='auth-form__card']//div[@class='onboarding-step-register-select-method__column-content'][descendant::div[normalize-space() = 'Standard Registration']]//span[@class='block'][normalize-space() = 'Get Started']
+2021-07-11 16:06:56 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:06:56 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:06:56 INFO  ATestScript:118 - Precondition step 18: Verify Personal Information page is loaded
+2021-07-11 16:06:56 DEBUG ATestScript:45 - Check if this text is visible on page: Personal Information
+2021-07-11 16:06:56 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:06:56 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:06:56 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:06:56 INFO  ATestScript:121 - Precondition step 19: Select date of birth
+2021-07-11 16:06:56 DEBUG ATestScript:70 - [PageAdditionalDetail] Select Date: 6/Dec/1994
+2021-07-11 16:06:56 DEBUG ATestScript:37 - 		[CalendarDate] Open calendar field name: Date of birth
+2021-07-11 16:06:56 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'Date of birth']/following::label[contains(@class, 'q-input')]/div
+2021-07-11 16:06:57 DEBUG ATestScript:44 - 		[CalendarDate] Select month: Dec
+2021-07-11 16:06:57 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center col']
+2021-07-11 16:06:57 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__months-item flex flex-center']//span[@class='block'][normalize-space() = 'Dec']
+2021-07-11 16:06:57 DEBUG ATestScript:52 - 		[CalendarDate] Select year: 1994
+2021-07-11 16:06:57 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center']
+2021-07-11 16:06:58 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
+2021-07-11 16:06:58 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
+2021-07-11 16:06:58 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__years-item flex flex-center']//span[@class='block'][normalize-space() = '1994']
+2021-07-11 16:06:58 DEBUG ATestScript:68 - 		[CalendarDate] Select day: 6
+2021-07-11 16:06:58 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__calendar-item q-date__calendar-item--in']//span[@class='block'][normalize-space() = '6']
+2021-07-11 16:06:59 INFO  ATestScript:124 - Precondition step 20: Select nationality
+2021-07-11 16:06:59 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Nationality for item: Singapore
+2021-07-11 16:06:59 DEBUG ATestScript:19 - 			[TextField] Input text: Singapore
+2021-07-11 16:07:00 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Singapore
+2021-07-11 16:07:00 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Singapore']
+2021-07-11 16:07:00 INFO  ATestScript:127 - Precondition step 21: Select gender
+2021-07-11 16:07:00 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Gender for item: Male
+2021-07-11 16:07:00 DEBUG ATestScript:19 - 			[TextField] Input text: Male
+2021-07-11 16:07:00 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Male
+2021-07-11 16:07:00 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Male']
+2021-07-11 16:07:00 INFO  ATestScript:130 - Precondition step 22: Press Submit
+2021-07-11 16:07:00 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
+2021-07-11 16:07:00 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:07:04 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:07:04 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:07:05 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:07:05 INFO  ATestScript:133 - Precondition step 23: Verify Enter email OTP page is loaded
+2021-07-11 16:07:05 DEBUG ATestScript:45 - Check if this text is visible on page: Enter email OTP
+2021-07-11 16:07:05 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:07:05 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:07:05 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:07:05 INFO  ATestScript:136 - Precondition step 24: Input email OTP
+2021-07-11 16:07:05 DEBUG ATestScript:95 - [PageRegister] input OTP number: 1234
+2021-07-11 16:07:05 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:07:05 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:07:05 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:07:06 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:07:06 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:07:09 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:07:09 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:07:20 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:07:20 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:07:20 INFO  ATestScript:139 - Precondition step 25: Verify Business Information page is loaded
+2021-07-11 16:07:20 DEBUG ATestScript:45 - Check if this text is visible on page: Business Information
+2021-07-11 16:07:20 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:07:20 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:07:20 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:07:20 INFO  ATestScript:151 - Step 1: Input Business legal name
+2021-07-11 16:07:20 DEBUG ATestScript:19 - 			[TextField] Input text: NMT
+2021-07-11 16:07:20 INFO  ATestScript:154 - Step 2: Select Entity Category
+2021-07-11 16:07:20 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Entity category for item: Non profit organization
+2021-07-11 16:07:20 DEBUG ATestScript:19 - 			[TextField] Input text: Non profit organization
+2021-07-11 16:07:20 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Non profit organization
+2021-07-11 16:07:20 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Non profit organization']
+2021-07-11 16:07:20 INFO  ATestScript:157 - Step 3: Select Entity type
+2021-07-11 16:07:20 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Entity type for item: Charities
+2021-07-11 16:07:20 DEBUG ATestScript:19 - 			[TextField] Input text: Charities
+2021-07-11 16:07:21 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Charities
+2021-07-11 16:07:21 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Charities']
+2021-07-11 16:07:21 INFO  ATestScript:160 - Step 4: Select Business registration number (UEN)
+2021-07-11 16:07:21 DEBUG ATestScript:19 - 			[TextField] Input text: 11160604T
+2021-07-11 16:07:21 INFO  ATestScript:163 - Step 5: Select Industry
+2021-07-11 16:07:21 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Industry for item: Retail Goods
+2021-07-11 16:07:21 DEBUG ATestScript:19 - 			[TextField] Input text: Retail Goods
+2021-07-11 16:07:22 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Retail Goods
+2021-07-11 16:07:22 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Retail Goods']
+2021-07-11 16:07:22 INFO  ATestScript:166 - Step 6: Select Sub-Industry
+2021-07-11 16:07:22 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Sub-Industry for item: Fine Arts
+2021-07-11 16:07:22 DEBUG ATestScript:19 - 			[TextField] Input text: Fine Arts
+2021-07-11 16:07:23 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Fine Arts
+2021-07-11 16:07:23 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Fine Arts']
+2021-07-11 16:07:23 INFO  ATestScript:169 - Step 7: Press Continue
+2021-07-11 16:07:23 DEBUG ATestScript:98 - [PageRegister] Click on button Continue
+2021-07-11 16:07:23 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:07:23 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:07:24 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:07:24 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:07:34 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:07:34 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:07:34 INFO  ATestScript:172 - Step 8: Input Business activity
+2021-07-11 16:07:34 DEBUG ATestScript:19 - 			[TextField] Input text: Americans love to talk about how Americans hate to talk about money
+2021-07-11 16:07:35 INFO  ATestScript:175 - Step 9: Input example of product/services provided
+2021-07-11 16:07:35 DEBUG ATestScript:19 - 			[TextField] Input text: A service provider provides organizations with consulting
+2021-07-11 16:07:35 INFO  ATestScript:178 - Step 10: Input Live business website
+2021-07-11 16:07:35 DEBUG ATestScript:19 - 			[TextField] Input text: www.nmt1.site
+2021-07-11 16:07:35 INFO  ATestScript:181 - Step 11: Select Number of employees
+2021-07-11 16:07:35 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Number of employees for item: 11-50
+2021-07-11 16:07:35 DEBUG ATestScript:19 - 			[TextField] Input text: 11-50
+2021-07-11 16:07:36 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: 11-50
+2021-07-11 16:07:36 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = '11-50']
+2021-07-11 16:07:36 INFO  ATestScript:184 - Step 12: Select Annual turnover
+2021-07-11 16:07:36 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Annual turnover for item: S$0 - S$50,000
+2021-07-11 16:07:36 DEBUG ATestScript:19 - 			[TextField] Input text: S$0 - S$50,000
+2021-07-11 16:07:37 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: S$0 - S$50,000
+2021-07-11 16:07:37 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'S$0 - S$50,000']
+2021-07-11 16:07:37 INFO  ATestScript:187 - Step 13: Submit business detail
+2021-07-11 16:07:37 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
+2021-07-11 16:07:37 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:07:48 DEBUG ATestScript:62 - No spinner is displayed
+2021-07-11 16:07:48 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:07:48 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:07:58 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:07:58 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:07:58 INFO  ATestScript:190 - Step 14: Select Does any of your company directors or shareholders qualify as Politically ...
+2021-07-11 16:07:58 DEBUG ATestScript:28 - 		[RadioButton] Radio button statement: Does any of your company directors or shareholders qualify as Politically Exposed Person (PEP), close family member or close associate of a PEP?
+2021-07-11 16:07:58 DEBUG ATestScript:34 - 		[RadioButton] Select value: No
+2021-07-11 16:07:58 DEBUG ATestScript:41 - 		[RadioButton] Get status of value: No
+2021-07-11 16:07:59 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(text(), 'Does any of your company directors or shareholders qualify as Politically Exposed Person (PEP), close family member or close associate of a PEP?')]//following::div[contains(@class, 'q-radio')][@aria-checked][normalize-space() = 'No']
+2021-07-11 16:07:59 INFO  ATestScript:193 - Step 15: Select Does your company have corporate shareholders with more than 10% ordinary shares?
+2021-07-11 16:07:59 DEBUG ATestScript:28 - 		[RadioButton] Radio button statement: Does your company have corporate shareholders with more than 10%% ordinary shares?
+2021-07-11 16:07:59 DEBUG ATestScript:34 - 		[RadioButton] Select value: No
+2021-07-11 16:07:59 DEBUG ATestScript:41 - 		[RadioButton] Get status of value: No
+2021-07-11 16:07:59 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(text(), 'Does your company have corporate shareholders with more than 10% ordinary shares?')]//following::div[contains(@class, 'q-radio')][@aria-checked][normalize-space() = 'No']
+2021-07-11 16:07:59 INFO  ATestScript:196 - Step 16: Press Continue
+2021-07-11 16:07:59 DEBUG ATestScript:98 - [PageRegister] Click on button Continue
+2021-07-11 16:07:59 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:07:59 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:08:08 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:08:08 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:08:18 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:08:18 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:08:18 INFO  ATestScript:199 - Step 17: Verify Complete your verification page is loaded
+2021-07-11 16:08:18 DEBUG ATestScript:45 - Check if this text is visible on page: Complete your verification
+2021-07-11 16:08:18 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:08:18 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:08:18 DEBUG ATestScript:49 - Text is visible!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 30949
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2021 4:06:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testIdentityPage[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}](1)" classname="scripts.testsuites.registerpagetest.IdentityPageTest" time="135.989">
+    <failure message="element click intercepted: Element &lt;span class=&quot;block&quot;&gt;...&lt;/span&gt; is not clickable at point (464, 836). Other element would receive the click: &lt;div data-v-4dedc76c=&quot;&quot; data-v-7e836ae6=&quot;&quot; class=&quot;q-inner-loading absolute-full column flex-center aspire-loader aspire-loader--mobile q-transition--fade-leave q-transition--fade-leave-active&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=91.0.4472.124)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-E4R96QE&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAINGU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4e0dbeef0a53dbb50664292bea2d250f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="block">...</span> is not clickable at point (464, 836). Other element would receive the click: <div data-v-4dedc76c="" data-v-7e836ae6="" class="q-inner-loading absolute-full column flex-center aspire-loader aspire-loader--mobile q-transition--fade-leave q-transition--fade-leave-active">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4R96QE', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAINGU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0dbeef0a53dbb50664292bea2d250f
+	at scripts.testsuites.registerpagetest.IdentityPageTest.testIdentityPage(IdentityPageTest.java:210)
+]]></failure>
+    <system-out><![CDATA[2021-07-11 16:08:20 INFO  ATestScript:71 - Precondition step 1: click registration link
+2021-07-11 16:08:20 DEBUG ATestScript:45 - [PageRegister] click on Register Link
+2021-07-11 16:08:20 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //a[@class='text-primary text-bold login-step-start__register-link']
+2021-07-11 16:08:23 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:08:23 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:08:23 INFO  ATestScript:75 - Precondition step 2: input user name
+2021-07-11 16:08:23 DEBUG ATestScript:50 - [PageRegister] input user full name: Tai A
+2021-07-11 16:08:23 DEBUG ATestScript:19 - 			[TextField] Input text: Tai A
+2021-07-11 16:08:23 INFO  ATestScript:78 - Precondition step 3: input email address
+2021-07-11 16:08:23 DEBUG ATestScript:55 - [PageRegister] input user email address: mtaihrtnf940de549d3-30e2-4e3f-8a13-75e8b1ff8679@gmail.com
+2021-07-11 16:08:23 DEBUG ATestScript:19 - 			[TextField] Input text: mtaihrtnf940de549d3-30e2-4e3f-8a13-75e8b1ff8679@gmail.com
+2021-07-11 16:08:24 INFO  ATestScript:81 - Precondition step 4: input mobile
+2021-07-11 16:08:24 DEBUG ATestScript:60 - [PageRegister] input user mobile: 165244480
+2021-07-11 16:08:24 DEBUG ATestScript:19 - 			[TextField] Input text: 165244480
+2021-07-11 16:08:24 INFO  ATestScript:84 - Precondition step 5: Input Where did you hear about us
+2021-07-11 16:08:24 DEBUG ATestScript:89 - [PageRegister] Select Where you hear about us value: Brochure
+2021-07-11 16:08:24 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Where did you hear about us? for item: Brochure
+2021-07-11 16:08:24 DEBUG ATestScript:19 - 			[TextField] Input text: Brochure
+2021-07-11 16:08:24 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Brochure
+2021-07-11 16:08:24 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Brochure']
+2021-07-11 16:08:25 INFO  ATestScript:87 - Precondition step 6: Agree Term and Policy
+2021-07-11 16:08:25 DEBUG ATestScript:76 - [PageRegister] Check on check box agree term and policy
+2021-07-11 16:08:25 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@role = 'checkbox'][following-sibling::div[contains(text(), 'I have read and agree with the')][a[contains(text(), 'Terms and Conditions')]][a[contains(text(), 'Privacy Policy')]]]
+2021-07-11 16:08:25 INFO  ATestScript:90 - Precondition step 7: Click Continue
+2021-07-11 16:08:25 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:08:25 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:08:25 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:08:28 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:08:28 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:08:30 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:08:30 INFO  ATestScript:93 - Precondition step 8: Verify next page is loaded
+2021-07-11 16:08:30 DEBUG ATestScript:45 - Check if this text is visible on page: Enter phone OTP
+2021-07-11 16:08:30 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:08:30 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:08:30 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:08:30 INFO  ATestScript:96 - Precondition step 9: Input phone OTP number
+2021-07-11 16:08:30 DEBUG ATestScript:96 - [PageRegister] input OTP number: 1234
+2021-07-11 16:08:30 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:08:31 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:08:31 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:08:31 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:08:31 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:08:34 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:08:34 INFO  ATestScript:99 - Precondition step 10: Press Continue
+2021-07-11 16:08:34 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:08:34 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:08:34 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:08:44 DEBUG ATestScript:62 - No spinner is displayed
+2021-07-11 16:08:44 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:08:44 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:08:55 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:08:55 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:08:55 INFO  ATestScript:102 - Precondition step 11: Verify Tell us more about yourself page is loaded
+2021-07-11 16:08:55 DEBUG ATestScript:45 - Check if this text is visible on page: Tell us more about yourself
+2021-07-11 16:08:55 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:08:55 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:08:55 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:08:55 INFO  ATestScript:105 - Precondition step 12: Select business role
+2021-07-11 16:08:55 DEBUG ATestScript:113 - [PageRegister] Select business role: I am a registered director of the company
+2021-07-11 16:08:55 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class, 'business-role')]/div[contains(@class, 'aspire-card')]//div[contains(text(), 'I am a registered director of the company')]
+2021-07-11 16:08:55 INFO  ATestScript:108 - Precondition step 13: Verify Additional details page is loaded
+2021-07-11 16:08:55 DEBUG ATestScript:45 - Check if this text is visible on page: Additional details
+2021-07-11 16:08:55 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:08:55 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:08:55 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:08:55 INFO  ATestScript:111 - Precondition step 14: Select solutions
+2021-07-11 16:08:55 DEBUG ATestScript:49 - [PageAdditionalDetail] Select Applicable Option: [accusantium]
+2021-07-11 16:08:55 DEBUG ATestScript:35 - 		[DropDown] Open dropdown: What solutions are you looking for?
+2021-07-11 16:08:55 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-select')]//i
+2021-07-11 16:08:56 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: accusantium
+2021-07-11 16:08:56 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'accusantium']
+2021-07-11 16:08:56 DEBUG ATestScript:52 - 		[DropDown] Close drop down: What solutions are you looking for?
+2021-07-11 16:08:56 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'What solutions are you looking for?']/following::label[contains(@class, 'q-field--highlighted')]
+2021-07-11 16:08:56 INFO  ATestScript:114 - Precondition step 15: Press Continue
+2021-07-11 16:08:56 DEBUG ATestScript:81 - [PageRegister] Click on button Continue
+2021-07-11 16:08:56 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:08:57 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:09:02 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:09:02 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:09:12 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:09:12 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:09:12 INFO  ATestScript:117 - Precondition step 16: Verify Choose a registration method page is loaded
+2021-07-11 16:09:12 DEBUG ATestScript:45 - Check if this text is visible on page: Choose a registration method
+2021-07-11 16:09:12 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:09:12 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:09:12 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:09:12 INFO  ATestScript:120 - Precondition step 17: Select registration method
+2021-07-11 16:09:12 DEBUG ATestScript:64 - [PageAdditionalDetail] Select Registration Method: Standard Registration
+2021-07-11 16:09:12 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='auth-form__card']//div[@class='onboarding-step-register-select-method__column-content'][descendant::div[normalize-space() = 'Standard Registration']]//span[@class='block'][normalize-space() = 'Get Started']
+2021-07-11 16:09:12 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:09:13 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:09:13 INFO  ATestScript:123 - Precondition step 18: Verify Personal Information page is loaded
+2021-07-11 16:09:13 DEBUG ATestScript:45 - Check if this text is visible on page: Personal Information
+2021-07-11 16:09:13 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:09:13 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:09:13 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:09:13 INFO  ATestScript:126 - Precondition step 19: Select date of birth
+2021-07-11 16:09:13 DEBUG ATestScript:70 - [PageAdditionalDetail] Select Date: 6/Dec/1994
+2021-07-11 16:09:13 DEBUG ATestScript:37 - 		[CalendarDate] Open calendar field name: Date of birth
+2021-07-11 16:09:13 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='aspire-label__text'][normalize-space() = 'Date of birth']/following::label[contains(@class, 'q-input')]/div
+2021-07-11 16:09:13 DEBUG ATestScript:44 - 		[CalendarDate] Select month: Dec
+2021-07-11 16:09:13 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center col']
+2021-07-11 16:09:13 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__months-item flex flex-center']//span[@class='block'][normalize-space() = 'Dec']
+2021-07-11 16:09:15 DEBUG ATestScript:52 - 		[CalendarDate] Select year: 1994
+2021-07-11 16:09:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__content col relative-position']/div[@class='q-date__view q-date__calendar']//div[@class='relative-position overflow-hidden flex flex-center']
+2021-07-11 16:09:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
+2021-07-11 16:09:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='col-auto'][1]
+2021-07-11 16:09:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__years-item flex flex-center']//span[@class='block'][normalize-space() = '1994']
+2021-07-11 16:09:16 DEBUG ATestScript:68 - 		[CalendarDate] Select day: 6
+2021-07-11 16:09:16 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[@class='q-date__calendar-item q-date__calendar-item--in']//span[@class='block'][normalize-space() = '6']
+2021-07-11 16:09:16 INFO  ATestScript:129 - Precondition step 20: Select nationality
+2021-07-11 16:09:16 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Nationality for item: Singapore
+2021-07-11 16:09:16 DEBUG ATestScript:19 - 			[TextField] Input text: Singapore
+2021-07-11 16:09:17 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Singapore
+2021-07-11 16:09:17 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Singapore']
+2021-07-11 16:09:17 INFO  ATestScript:132 - Precondition step 21: Select gender
+2021-07-11 16:09:17 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Gender for item: Male
+2021-07-11 16:09:17 DEBUG ATestScript:19 - 			[TextField] Input text: Male
+2021-07-11 16:09:17 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Male
+2021-07-11 16:09:17 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Male']
+2021-07-11 16:09:17 INFO  ATestScript:135 - Precondition step 22: Press Submit
+2021-07-11 16:09:17 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
+2021-07-11 16:09:18 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:09:21 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:09:21 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:09:22 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:09:22 INFO  ATestScript:138 - Precondition step 23: Verify Enter email OTP page is loaded
+2021-07-11 16:09:22 DEBUG ATestScript:45 - Check if this text is visible on page: Enter email OTP
+2021-07-11 16:09:22 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:09:22 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:09:22 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:09:22 INFO  ATestScript:141 - Precondition step 24: Input email OTP
+2021-07-11 16:09:22 DEBUG ATestScript:95 - [PageRegister] input OTP number: 1234
+2021-07-11 16:09:22 DEBUG ATestScript:32 - 			[TextField] Action Input text: 1
+2021-07-11 16:09:22 DEBUG ATestScript:32 - 			[TextField] Action Input text: 2
+2021-07-11 16:09:23 DEBUG ATestScript:32 - 			[TextField] Action Input text: 3
+2021-07-11 16:09:23 DEBUG ATestScript:32 - 			[TextField] Action Input text: 4
+2021-07-11 16:09:23 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:09:27 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:09:27 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:09:37 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:09:37 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:09:37 INFO  ATestScript:144 - Precondition step 25: Verify Business Information page is loaded
+2021-07-11 16:09:37 DEBUG ATestScript:45 - Check if this text is visible on page: Business Information
+2021-07-11 16:09:37 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:09:37 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:09:37 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:09:37 INFO  ATestScript:147 - Precondition step 26: Input Business legal name
+2021-07-11 16:09:37 DEBUG ATestScript:19 - 			[TextField] Input text: NMT
+2021-07-11 16:09:37 INFO  ATestScript:150 - Precondition step 27: Select Entity Category
+2021-07-11 16:09:37 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Entity category for item: Non profit organization
+2021-07-11 16:09:37 DEBUG ATestScript:19 - 			[TextField] Input text: Non profit organization
+2021-07-11 16:09:37 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Non profit organization
+2021-07-11 16:09:37 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Non profit organization']
+2021-07-11 16:09:38 INFO  ATestScript:153 - Precondition step 28: Select Entity type
+2021-07-11 16:09:38 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Entity type for item: Charities
+2021-07-11 16:09:38 DEBUG ATestScript:19 - 			[TextField] Input text: Charities
+2021-07-11 16:09:38 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Charities
+2021-07-11 16:09:38 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Charities']
+2021-07-11 16:09:38 INFO  ATestScript:156 - Precondition step 29: Select Business registration number (UEN)
+2021-07-11 16:09:38 DEBUG ATestScript:19 - 			[TextField] Input text: 11160820T
+2021-07-11 16:09:38 INFO  ATestScript:159 - Precondition step 30: Select Industry
+2021-07-11 16:09:38 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Industry for item: Retail Goods
+2021-07-11 16:09:38 DEBUG ATestScript:19 - 			[TextField] Input text: Retail Goods
+2021-07-11 16:09:39 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Retail Goods
+2021-07-11 16:09:39 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Retail Goods']
+2021-07-11 16:09:39 INFO  ATestScript:162 - Precondition step 31: Select Sub-Industry
+2021-07-11 16:09:39 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Sub-Industry for item: Fine Arts
+2021-07-11 16:09:39 DEBUG ATestScript:19 - 			[TextField] Input text: Fine Arts
+2021-07-11 16:09:40 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: Fine Arts
+2021-07-11 16:09:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'Fine Arts']
+2021-07-11 16:09:40 INFO  ATestScript:165 - Precondition step 32: Press Continue
+2021-07-11 16:09:40 DEBUG ATestScript:98 - [PageRegister] Click on button Continue
+2021-07-11 16:09:40 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:09:40 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:09:41 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:09:41 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:09:51 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:09:51 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:09:51 INFO  ATestScript:168 - Precondition step 33: Input Business activity
+2021-07-11 16:09:51 DEBUG ATestScript:19 - 			[TextField] Input text: Americans love to talk about how Americans hate to talk about money
+2021-07-11 16:09:52 INFO  ATestScript:171 - Precondition step 34: Input example of product/services provided
+2021-07-11 16:09:52 DEBUG ATestScript:19 - 			[TextField] Input text: A service provider provides organizations with consulting
+2021-07-11 16:09:52 INFO  ATestScript:174 - Precondition step 35: Input Live business website
+2021-07-11 16:09:52 DEBUG ATestScript:19 - 			[TextField] Input text: www.nmt1.site
+2021-07-11 16:09:52 INFO  ATestScript:177 - Precondition step 36: Select Number of employees
+2021-07-11 16:09:52 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Number of employees for item: 11-50
+2021-07-11 16:09:52 DEBUG ATestScript:19 - 			[TextField] Input text: 11-50
+2021-07-11 16:09:53 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: 11-50
+2021-07-11 16:09:53 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = '11-50']
+2021-07-11 16:09:53 INFO  ATestScript:180 - Precondition step 37: Select Annual turnover
+2021-07-11 16:09:53 DEBUG ATestScript:33 - 		[DropDownTextSearch] Search drop down Annual turnover for item: S$0 - S$50,000
+2021-07-11 16:09:53 DEBUG ATestScript:19 - 			[TextField] Input text: S$0 - S$50,000
+2021-07-11 16:09:53 DEBUG ATestScript:46 - 		[DropDown] Select item in drop down: S$0 - S$50,000
+2021-07-11 16:09:53 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(@class,'q-item')][text() = 'S$0 - S$50,000']
+2021-07-11 16:09:53 INFO  ATestScript:183 - Precondition step 38: Submit business detail
+2021-07-11 16:09:53 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Submit']
+2021-07-11 16:09:53 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:10:04 DEBUG ATestScript:62 - No spinner is displayed
+2021-07-11 16:10:04 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:10:04 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:10:14 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:10:14 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:10:14 INFO  ATestScript:186 - Precondition step 39: Select Does any of your company directors or shareholders qualify as Politically ...
+2021-07-11 16:10:14 DEBUG ATestScript:28 - 		[RadioButton] Radio button statement: Does any of your company directors or shareholders qualify as Politically Exposed Person (PEP), close family member or close associate of a PEP?
+2021-07-11 16:10:14 DEBUG ATestScript:34 - 		[RadioButton] Select value: No
+2021-07-11 16:10:14 DEBUG ATestScript:41 - 		[RadioButton] Get status of value: No
+2021-07-11 16:10:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(text(), 'Does any of your company directors or shareholders qualify as Politically Exposed Person (PEP), close family member or close associate of a PEP?')]//following::div[contains(@class, 'q-radio')][@aria-checked][normalize-space() = 'No']
+2021-07-11 16:10:15 INFO  ATestScript:189 - Precondition step 40: Select Does your company have corporate shareholders with more than 10% ordinary shares?
+2021-07-11 16:10:15 DEBUG ATestScript:28 - 		[RadioButton] Radio button statement: Does your company have corporate shareholders with more than 10%% ordinary shares?
+2021-07-11 16:10:15 DEBUG ATestScript:34 - 		[RadioButton] Select value: No
+2021-07-11 16:10:15 DEBUG ATestScript:41 - 		[RadioButton] Get status of value: No
+2021-07-11 16:10:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //div[contains(text(), 'Does your company have corporate shareholders with more than 10% ordinary shares?')]//following::div[contains(@class, 'q-radio')][@aria-checked][normalize-space() = 'No']
+2021-07-11 16:10:15 INFO  ATestScript:192 - Precondition step 41: Press Continue
+2021-07-11 16:10:15 DEBUG ATestScript:98 - [PageRegister] Click on button Continue
+2021-07-11 16:10:15 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Continue']
+2021-07-11 16:10:15 DEBUG ATestScript:57 - Wait for Spinner to disappear...
+2021-07-11 16:10:23 DEBUG ATestScript:64 - ...Spinner disappeared
+2021-07-11 16:10:23 DEBUG ATestScript:68 - Wait for Loading to disappear...
+2021-07-11 16:10:33 DEBUG ATestScript:73 - No loading is displayed
+2021-07-11 16:10:33 DEBUG ATestScript:75 - ...Loading disappeared
+2021-07-11 16:10:33 INFO  ATestScript:203 - Step 1: Verify Complete your verification page is loaded
+2021-07-11 16:10:33 DEBUG ATestScript:45 - Check if this text is visible on page: Complete your verification
+2021-07-11 16:10:33 DEBUG ATestScript:37 - Wait for page loaded completely...
+2021-07-11 16:10:33 DEBUG ATestScript:40 - ...Page loaded completely
+2021-07-11 16:10:33 DEBUG ATestScript:49 - Text is visible!
+2021-07-11 16:10:33 INFO  ATestScript:206 - Step 2: Press Get Started
+2021-07-11 16:10:33 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Get Started']
+2021-07-11 16:10:33 INFO  ATestScript:209 - Step 3: Press Begin Verification
+2021-07-11 16:10:33 DEBUG ATestScript:17 - 			[Button] Click on element: By.xpath: //button//span[text() = 'Begin Verification']
+2021-07-11 16:10:36 ERROR ATestScript:228 - element click intercepted: Element <span class="block">...</span> is not clickable at point (464, 836). Other element would receive the click: <div data-v-4dedc76c="" data-v-7e836ae6="" class="q-inner-loading absolute-full column flex-center aspire-loader aspire-loader--mobile q-transition--fade-leave q-transition--fade-leave-active">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4R96QE', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAINGU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0dbeef0a53dbb50664292bea2d250f
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 46821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2021 4:08:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

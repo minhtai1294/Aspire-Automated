@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 146.917 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 389.808 s <<< FAILURE! - in TestSuite
+scripts.testsuites.registerpagetest.IdentityPageTest.testIdentityPage[{businessActivity=Americans love to talk about how Americans hate to talk about money, emailDomain=@gmail.com, documentOption=Passport, gender=Male, businessProvide=A service provider provides organizations with consulting, industry=Retail Goods, emailOTPNumber=1234, userid=Tai A, verificationSelect=Identity documents, liveWebSite=www.nmt1.site, mobileOTPNumber=1234, subIndustry=Fine Arts, solution=accusantium, shareholdersQualified=No, entityCategory=Non profit organization, annualTurnover=S$0 - S$50,000, moreThan10OrdinaryShares=No, email=mtaihrtnf94, entityType=Charities, filePath=\src\test\resources\testdata\RegisterTest.jpg, mobile=335679087, dateOfBirth=6/Dec/1994, numberOfEmployees=11-50, businessRole=I am a registered director of the company, nationality=Singapore, registrationNumber=113523451A, whereDidYouHearAbUs=Brochure, businessLegalName=NMT, roleInCompany=Appointed director, registrationMethod=Standard Registration}](1)  Time elapsed: 135.989 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="block">...</span> is not clickable at point (464, 836). Other element would receive the click: <div data-v-4dedc76c="" data-v-7e836ae6="" class="q-inner-loading absolute-full column flex-center aspire-loader aspire-loader--mobile q-transition--fade-leave q-transition--fade-leave-active">...</div>
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E4R96QE', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAINGU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e0dbeef0a53dbb50664292bea2d250f
+	at scripts.testsuites.registerpagetest.IdentityPageTest.testIdentityPage(IdentityPageTest.java:210)
+

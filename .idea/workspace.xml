@@ -10,6 +10,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -23,19 +31,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/testdata" />
   </component>
-  <component name="RunManager" selected="TestNG.RegisterTest">
-    <configuration name="E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Aspire Automated" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MINH TAI\Coding Projects\Aspire Auto\Aspire Automated\src\test\resources\testdata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/testng.xml">
+    <configuration name="AdditionalDetailPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Aspire Automated" />
       <extension name="coverage">
         <pattern>
@@ -44,7 +48,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts.registerpagetest" />
-      <option name="MAIN_CLASS_NAME" value="scripts.registerpagetest.RegisterTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.registerpagetest.AdditionalDetailPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aspire Automated" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.registerpagetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts.registerpagetest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.registerpagetest.BusinessPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aspire Automated" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdentityPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aspire Automated" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.registerpagetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts.registerpagetest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.registerpagetest.IdentityPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Aspire Automated" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.registerpagetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts.registerpagetest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.registerpagetest.RegisterPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -54,8 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegisterTest" />
-        <item itemvalue="TestNG.E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.E:/MINH TAI/Coding Projects/Aspire Auto/Aspire Automated/testng.xml" />
+        <item itemvalue="TestNG.IdentityPageTest" />
+        <item itemvalue="TestNG.BusinessPageTest" />
+        <item itemvalue="TestNG.AdditionalDetailPageTest" />
+        <item itemvalue="TestNG.RegisterPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -74,9 +142,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/scripts/registerpagetest/RegisterTest.java</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/testsuites/registerpagetest/RegisterPageTest.java</url>
+          <line>51</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/testsuites/registerpagetest/AdditionalDetailPageTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scripts/testsuites/registerpagetest/BusinessPageTest.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

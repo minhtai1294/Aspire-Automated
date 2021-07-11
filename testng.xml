@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Register test">
-    <test name="testRegister">
+    <test name="testFirstRegisterPage">
         <classes>
-            <class name="scripts.registerpagetest.RegisterTest" />
+            <class name="scripts.testsuites.registerpagetest.RegisterPageTest" />
+        </classes>
+    </test>
+    <test name="testAdditionalDetailsPage">
+        <classes>
+            <class name="scripts.testsuites.registerpagetest.AdditionalDetailPageTest" />
+        </classes>
+    </test>
+    <test name="testBusinessDetailPage">
+        <classes>
+            <class name="scripts.testsuites.registerpagetest.BusinessPageTest" />
+        </classes>
+    </test>
+    <test name="testIdentityPage">
+        <classes>
+            <class name="scripts.testsuites.registerpagetest.IdentityPageTest" />
         </classes>
     </test>
 </suite>

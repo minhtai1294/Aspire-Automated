@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Register test]" verbose="0">
+  <test thread-count="5" name="testIdentityPage(failed)" verbose="0">
+    <classes>
+      <class name="scripts.testsuites.registerpagetest.IdentityPageTest">
+        <methods>
+          <include name="testIdentityPage" invocation-numbers="0"/>
+          <include name="ATestScriptInit"/>
+        </methods>
+      </class> <!-- scripts.testsuites.registerpagetest.IdentityPageTest -->
+    </classes>
+  </test> <!-- testIdentityPage(failed) -->
+</suite> <!-- Failed suite [Register test] -->
