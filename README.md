@@ -46,7 +46,7 @@ Before you continue, ensure you meet the following requirements:
 * "End of test data" row at the end is required
 
 ### Test data usage
-* Test data file name will match with class name
+#### Important: Test data file name will match with test method name
 * Design the test data as you want and get the data from testCaseData in your test
 
 ## Some more implements can be done (but have not done, just my thinking)
