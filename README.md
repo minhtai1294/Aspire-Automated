@@ -31,7 +31,7 @@ Before you continue, ensure you meet the following requirements:
    2. Run
 * Way 1: Run the 'execution test.bat' (you need to install Maven and set path for MAVEN_HOME in environment variables)
 * Way 2: Run the testng.xml file in project
-* Way 3: Run the test class. Add a TestNG configuration for test class (current test class is RegisterTest.java), no other inputs are required for the TestNG configuration
+* Way 3: Run the test class. Add a TestNG configuration for a test class (currently there's only package scripts.testsuites.registerpagetest), no other inputs are required for the TestNG configuration
 
 ### Test data design
 * File type: .xlsx
